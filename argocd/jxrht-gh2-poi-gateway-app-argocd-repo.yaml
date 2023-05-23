@@ -1,0 +1,10 @@
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: jxrht-gh2-jxrht-gh2-poi-gateway-app-repo
+  namespace: janus-argocd
+  labels:
+    argocd.argoproj.io/secret-type: repository
+stringData:
+  url: https://github.com/Summit23Janus1/jxrht-gh2-gateway-gitops
